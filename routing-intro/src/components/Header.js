@@ -17,8 +17,9 @@ class Header extends Component {
                         </div>
                         <div id="navbarCollapse" className="collapse navbar-collapse">
                             <ul className="nav navbar-nav">
-                              <li><NavLink activeClassName="liSelected" to={"/"}>Home</NavLink></li>
-
+                              <li><NavLink activeClassName="liSelected" to={"/home"}>Home</NavLink></li>
+                              <li><NavLink activeClassName="liSelected" to={"/about"}>About us</NavLink></li>
+                                <li><NavLink activeClassName="liSelected" to={"/contact"}>Contact US</NavLink></li>
 
                             </ul>
                             <form className="navbar-form navbar-left">
