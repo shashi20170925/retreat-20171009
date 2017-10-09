@@ -5,8 +5,7 @@ class UserDetails extends Component {
     return (
       <div>
           <h1>UserDetails Component </h1>
-          <br/>
-          <p>{this.props.userName}</p>
+          <br/>  
       </div>
     );
   }
