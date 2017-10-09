@@ -6,6 +6,7 @@ class UserDetails extends Component {
       <div>
           <h1>UserDetails Component </h1>
           <br/>  
+          <p>User name sent from parent : {this.props.userName} </p>
       </div>
     );
   }
